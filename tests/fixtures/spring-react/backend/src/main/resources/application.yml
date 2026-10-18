@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://db.internal:5432/customers
+    username: app
+    password: hunter2-prod-secret
+  jpa:
+    hibernate:
+      ddl-auto: validate
+server:
+  port: 8080
